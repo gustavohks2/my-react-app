@@ -1,11 +1,11 @@
 import { Component } from 'react';
-import Reservation from './Form/Reservation/Reservation';
+import WelcomeDialog from './Composition/WelcomeDialog';
 
 class App extends Component {
   
   render() {
     return (
-      <Reservation/>
+      <WelcomeDialog/>
     );
   }
 
